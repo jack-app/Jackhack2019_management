@@ -8,8 +8,8 @@ namespace themeDecision
     {
 
         private string[] theme = { "!", "現実を拡張せよ！", "放置して見ていると楽しいもの\n（多少操作してもOK）",
-                                    "ボール", "面倒くさいが楽になる", "行列を楽しめるプロダクト   \n（ゲーム禁止）",
-                                    "5" };
+                                    "ボール", "面倒くさいが楽になる", " 行列を楽しめるプロダクト  \n（ゲーム禁止）",
+                                    "     ファミレスで使える     \nアプリ・サービス" };
         private bool onlyone = false;
         public Form1()
         {
@@ -25,7 +25,7 @@ namespace themeDecision
                 rand.GetBytes(bs);
                 rand.Dispose();
                 System.Diagnostics.Trace.WriteLine(BitConverter.ToUInt32(bs, 0));
-                textBox1.Text = theme[BitConverter.ToUInt32(bs, 0) % 7];
+                textBox1.Text = theme[BitConverter.ToUInt32(bs, 0) % theme.Length];
                 onlyone = true;
             }
         }
