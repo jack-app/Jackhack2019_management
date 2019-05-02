@@ -35,7 +35,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("MS UI Gothic", 30F);
-            this.button1.Location = new System.Drawing.Point(1174, 298);
+            this.button1.Location = new System.Drawing.Point(1294, 270);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(1237, 321);
             this.button1.TabIndex = 0;
