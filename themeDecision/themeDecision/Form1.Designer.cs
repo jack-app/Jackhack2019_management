@@ -34,22 +34,22 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("MS UI Gothic", 30F);
-            this.button1.Location = new System.Drawing.Point(1294, 270);
+            this.button1.Font = new System.Drawing.Font("MS UI Gothic", 25F);
+            this.button1.Location = new System.Drawing.Point(503, 64);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(1237, 321);
+            this.button1.Size = new System.Drawing.Size(809, 196);
             this.button1.TabIndex = 0;
-            this.button1.Text = "今年のテーマはこれだ！";
+            this.button1.Text = "発表順はこれだ！";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Clicked);
+            this.button1.Click += new System.EventHandler(this.Clicked2);
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("装甲明朝", 75F, System.Drawing.FontStyle.Bold);
-            this.textBox1.Location = new System.Drawing.Point(12, 902);
+            this.textBox1.Location = new System.Drawing.Point(12, 393);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(3784, 738);
+            this.textBox1.Size = new System.Drawing.Size(1864, 513);
             this.textBox1.TabIndex = 1;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -58,7 +58,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(3808, 2072);
+            this.ClientSize = new System.Drawing.Size(1888, 992);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
