@@ -35,9 +35,10 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("MS UI Gothic", 25F);
-            this.button1.Location = new System.Drawing.Point(503, 64);
+            this.button1.Location = new System.Drawing.Point(780, 21);
+            this.button1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(809, 196);
+            this.button1.Size = new System.Drawing.Size(303, 78);
             this.button1.TabIndex = 0;
             this.button1.Text = "発表順はこれだ！";
             this.button1.UseVisualStyleBackColor = true;
@@ -45,22 +46,23 @@
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("装甲明朝", 75F, System.Drawing.FontStyle.Bold);
-            this.textBox1.Location = new System.Drawing.Point(12, 393);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold);
+            this.textBox1.Location = new System.Drawing.Point(4, 157);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(1864, 513);
+            this.textBox1.Size = new System.Drawing.Size(1890, 874);
             this.textBox1.TabIndex = 1;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 30F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(1888, 992);
+            this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
